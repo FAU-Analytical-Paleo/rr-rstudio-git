@@ -35,22 +35,23 @@ RStudio integrates support for git and svn, hence we are going to use the widely
 
 **1. Installation:** To get started you need the following software installed on your computer: [Git](https://git-scm.com) and if you are new to R, then you also need to install [R](https://www.r-project.org) and [RStudio](https://www.rstudio.com). Additionally you will also need a [GitHub](https://github.com/) account.
 
-a) **Git** Installation
+<br />a) **Git** Installation
    + **Win:** Download and Install Git ([Download Git](https://git-scm.com/downloads))
    + **OSX:** Install the Xcode command line tools, that include Git. To invoke the XCode installation process on OSX, type `git --version` and `git config` in the osx shell. OSX will then ask you install the XCode developer command line tools. Another way to invoke the installation procedure is: `xcode-select --install`
    + Optional Git clients: [SourceTree](https://www.sourcetreeapp.com).
-b) **R ([Download R](https://cloud.r-project.org)):** Download and Install R (if not already installed).
-c) **RStudio ([Download RStudio Desktop](https://www.rstudio.com/products/RStudio/#Desktop)):**  Download and Install RStudio (if not already installed) 
-d) **GitHub account**: On [GitHub](https://github.com/) create yourself a free GitHub account. _If you are new to Git follow the 15 min [TryGit Tutorial](https://try.github.io) to get a quick introduction to Git._ 
+   
+<br />b) **R ([Download R](https://cloud.r-project.org)):** Download and Install R (if not already installed).
+<br />c) **RStudio ([Download RStudio Desktop](https://www.rstudio.com/products/RStudio/#Desktop)):**  Download and Install RStudio (if not already installed) 
+<br />d) **GitHub account**: On [GitHub](https://github.com/) create yourself a free GitHub account. _If you are new to Git follow the 15 min [TryGit Tutorial](https://try.github.io) to get a quick introduction to Git._ 
 
 **2. Setup Git in RStudio:** Tell RStudio where to find the Git installation (see Figure 1).
 
-a) Open RStudio and go to _Tools > Global Options..._ click on _Git/SVN_ 
-b) **Check** _Enable version control interface for RStudio projects_
-c) **Set the path to the Git executable** that you just installed. Open a shell, if you don't know where Git is installed.    
+<br />a) Open RStudio and go to _Tools > Global Options..._ click on _Git/SVN_ 
+<br />b) **Check** _Enable version control interface for RStudio projects_
+<br />c) **Set the path to the Git executable** that you just installed. Open a shell, if you don't know where Git is installed.    
    Windows: type `where git` and hit enter. The path should be something like: `C:/Program Files (x86)/Git/bin/git.exe`    
    Linux/OS X: type `which git` and hit enter. The path should be something like: `/usr/bin/git` 
-d) **Restart RStudio**, if it worked out you will find the Git icon on the top toolbar (see Figure 1). Note: If this doesn't work, don't worry and skip to No. 3 to setup Git.
+<br />d) **Restart RStudio**, if it worked out you will find the Git icon on the top toolbar (see Figure 1). Note: If this doesn't work, don't worry and skip to No. 3 to setup Git.
 
 ![**Figure 1:** RStudio: Global Options for Git/SVN](figures/RStudio-setup-git.png "Figure 1: RStudio: Global Options for Git/SVN")
 
@@ -70,11 +71,11 @@ git config --global user.email 'name@provider.com'
 
 There are three ways to create version control for a RStudio project.
 
-a) **Create a new project and create a local Git repository:** Select _File > New Project.._, create a project from a _New Directory_ and check the option _Create a git repository_. In order to push to a remote repository later on you add that remote repository by using the Git shell. If you already know which online repository you want to use for your projects, option c) is more convenient.    
+<br />a) **Create a new project and create a local Git repository:** Select _File > New Project.._, create a project from a _New Directory_ and check the option _Create a git repository_. In order to push to a remote repository later on you add that remote repository by using the Git shell. If you already know which online repository you want to use for your projects, option c) is more convenient.    
 
-b) **Create a new project from a folder under version control:** In this case you only need to create a new RStudio project for that directory and version control is automatically enabled. Go to _File > New Project_, select create a new project from an _Existing Directory_ and create the project.    
+<br />b) **Create a new project from a folder under version control:** In this case you only need to create a new RStudio project for that directory and version control is automatically enabled. Go to _File > New Project_, select create a new project from an _Existing Directory_ and create the project.    
 
-c) **Create a new project based on a remote Git repository:** Select _File > New Project.._ and from the opening menu select to create a new project from _Version Control_, Choose Git, then provide the repository url (use the https link of the url if you want to avoid all the ssh trouble) from the the repository you want to clone and create the project.
+<br />c) **Create a new project based on a remote Git repository:** Select _File > New Project.._ and from the opening menu select to create a new project from _Version Control_, Choose Git, then provide the repository url (use the https link of the url if you want to avoid all the ssh trouble) from the the repository you want to clone and create the project.
 
 In this tutorial we **create a project based on a remote GitHub repository** (c). Hence we first create a new repository on GitHub and create our GitHub project from that repository.  
 
