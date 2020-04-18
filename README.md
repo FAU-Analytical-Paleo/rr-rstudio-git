@@ -123,7 +123,7 @@ plot(cars)    # plot speed against distance
 
 Forking a project allows you to clone a repository on server-side and make it the starting point of your own project. A _fork_ creates a personal copy of another repository. (See also the [Github Forking guide](https://guides.github.com/activities/forking/))
 
-**1. Fork a repository on GitHub:** Open https://github.com/314a/rr-r-publication and press the _fork_ icon  (in the upper right side of the project page) to fork this project to your own github account. On your GitHub page https://github.com/username the forked project should appear then in the list of your repositories.   
+**1. Fork a repository on GitHub:** Open https://github.com/FAU-Analytical-Paleo/rr-r-publication and press the _fork_ icon  (in the upper right side of the project page) to fork this project to your own github account. On your GitHub page https://github.com/username the forked project should appear then in the list of your repositories.   
 ![**Figure 7:** GitHub: Fork a repository](figures/GitHub-fork-repo.png)
    
 **2. Copy the HTTPS repository url:** `https://github.com/yourusername/rr-r-publication.git` from _your_ forked repository (see Part 2 Step 2)     
