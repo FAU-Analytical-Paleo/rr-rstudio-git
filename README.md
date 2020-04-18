@@ -50,7 +50,7 @@ RStudio integrates support for git and svn, hence we are going to use the widely
 3. **Set the path to the Git executable** that you just installed. Open a shell, if you don't know where Git is installed.    
    Windows: type `where git` and hit enter. The path should be something like: `C:/Program Files (x86)/Git/bin/git.exe`    
    Linux/OS X: type `which git` and hit enter. The path should be something like: `/usr/bin/git` 
-4. **Restart RStudio**, if it worked out you will find the Git icon on the top toolbar (see Figure 1).
+4. **Restart RStudio**, if it worked out you will find the Git icon on the top toolbar (see Figure 1). Note: If this doesn't work, skip to Part 2.
 
 ![**Figure 1:** RStudio: Global Options for Git/SVN](figures/RStudio-setup-git.png "Figure 1: RStudio: Global Options for Git/SVN")
 
