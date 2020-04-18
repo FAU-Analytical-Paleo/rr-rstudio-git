@@ -35,22 +35,22 @@ RStudio integrates support for git and svn, hence we are going to use the widely
 
 **1. Installation:** To get started you need the following software installed on your computer: [Git](https://git-scm.com) and if you are new to R, then you also need to install [R](https://www.r-project.org) and [RStudio](https://www.rstudio.com). Additionally you will also need a [GitHub](https://github.com/) account.
 
-1. **Git** Installation
+a) **Git** Installation
    + **Win:** Download and Install Git ([Download Git](https://git-scm.com/downloads))
    + **OSX:** Install the Xcode command line tools, that include Git. To invoke the XCode installation process on OSX, type `git --version` and `git config` in the osx shell. OSX will then ask you install the XCode developer command line tools. Another way to invoke the installation procedure is: `xcode-select --install`
    + Optional Git clients: [SourceTree](https://www.sourcetreeapp.com).
-2. **R ([Download R](https://cloud.r-project.org)):** Download and Install R (if not already installed).
-3. **RStudio ([Download RStudio Desktop](https://www.rstudio.com/products/RStudio/#Desktop)):**  Download and Install RStudio (if not already installed) 
-4. **GitHub account**: On [GitHub](https://github.com/) create yourself a free GitHub account. _If you are new to Git follow the 15 min [TryGit Tutorial](https://try.github.io) to get a quick introduction to Git._ 
+b) **R ([Download R](https://cloud.r-project.org)):** Download and Install R (if not already installed).
+c) **RStudio ([Download RStudio Desktop](https://www.rstudio.com/products/RStudio/#Desktop)):**  Download and Install RStudio (if not already installed) 
+d) **GitHub account**: On [GitHub](https://github.com/) create yourself a free GitHub account. _If you are new to Git follow the 15 min [TryGit Tutorial](https://try.github.io) to get a quick introduction to Git._ 
 
 **2. Setup Git in RStudio:** Tell RStudio where to find the Git installation (see Figure 1).
 
-1. Open RStudio and go to _Tools > Global Options..._ click on _Git/SVN_ 
-2. **Check** _Enable version control interface for RStudio projects_
-3. **Set the path to the Git executable** that you just installed. Open a shell, if you don't know where Git is installed.    
+a) Open RStudio and go to _Tools > Global Options..._ click on _Git/SVN_ 
+b) **Check** _Enable version control interface for RStudio projects_
+c) **Set the path to the Git executable** that you just installed. Open a shell, if you don't know where Git is installed.    
    Windows: type `where git` and hit enter. The path should be something like: `C:/Program Files (x86)/Git/bin/git.exe`    
    Linux/OS X: type `which git` and hit enter. The path should be something like: `/usr/bin/git` 
-4. **Restart RStudio**, if it worked out you will find the Git icon on the top toolbar (see Figure 1). Note: If this doesn't work, don't worry and skip to No. 3 to setup Git.
+d) **Restart RStudio**, if it worked out you will find the Git icon on the top toolbar (see Figure 1). Note: If this doesn't work, don't worry and skip to No. 3 to setup Git.
 
 ![**Figure 1:** RStudio: Global Options for Git/SVN](figures/RStudio-setup-git.png "Figure 1: RStudio: Global Options for Git/SVN")
 
