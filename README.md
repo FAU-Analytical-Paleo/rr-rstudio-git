@@ -93,7 +93,7 @@ In this tutorial we **create a project based on a remote GitHub repository** (c)
 
 ## Part 3: Make local changes, commit and push to GitHub
 
-**1. Make local changes:** Open the `README.md` file and edit and save the file. 
+**1. Make local changes:** Open the `README.md` file and, copy and paste the text below and save the file. 
 ```md
 # RR project in RStudio
 RR workshop RStudio + Git repository
