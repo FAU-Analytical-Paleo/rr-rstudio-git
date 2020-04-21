@@ -12,9 +12,7 @@ RStudio)\[<https://github.com/jfiksel/github-classroom-for-students/blob/master/
     course-name-2020). Within this folder, I would recommend a folder
     titled lectures, as well a folder title homework.
 
-Here is a basic illustration of how my directory structure looks for a
-class titled Advanced Biostatistics Lab taken in Fall 2017 at Johns
-Hopkins.
+Here is a basic illustration of how my directory structure looks:
 
     Users
     │
@@ -84,3 +82,37 @@ want to commit, enter your commit message, then hit Commit. Here is also
 a short GIF showing how to do this:
 
 ![Alt Text](http://g.recordit.co/96UWQ9Avy2.gif)
+
+Two things about committing. **One**, you should commit somewhat
+frequently. At minimum, if you’re doing a homework assignment, you
+should make a commit each time that you’ve finished a task or plan to
+stop for a while. **Two**, leave informative commit messages. “Added
+stuff” will not help you if you’re looking at your commit history in a
+year. A message like “Added initial version of hello-world function”
+will be more useful.
+
+6.  At some point you’ll want to get the updated version of the
+    assignment back onto GitHub, so that teachers/TAs can help you with
+    your code. If you are ready to upload the updated version, you can
+    again click on the GIT toolbar dropdown menu in RStudio, and then
+    click `Push` button (it’s the green arrow facing up). You can also
+    do this after you commit in RStudio by clicking Push in the top
+    right corner of the Commit pop-up box. Here is a visualization of
+    both options:
+
+![Alt Text](http://g.recordit.co/TkOnIVLttw.gif)
+
+### Resources
+
+  - [Happy Git and GitHub for the useR](http://happygitwithr.com/)
+  - [The Unix Workbench](http://seankross.com/the-unix-workbench/)
+  - [Interactive learning guide for
+    Git](http://learngitbranching.js.org/)
+  - [GitHub Guides](https://guides.github.com/)
+  - [Git setup for Windows (video)](https://youtu.be/F_fPEMnr1OQ)
+  - [Git setup for Mac
+    (video)](https://www.youtube.com/watch?v=kbmSZwK0k-A&t)
+  - [How to clone, edit, and push homework assignments with GitHub
+    Classroom (video)](https://youtu.be/pAcMgGbCtQw)
+
+Adapted from:<https://github.com/jfiksel/github-classroom-for-students>
