@@ -64,16 +64,17 @@ You’ll then be informed that a repository has been created for you.
     homework assignment.
 
 5.  Your Rscripts will go in this folder. After you make changes to the
-    homework assignment, commit them. **What are commits?** Commits are
-    essentially taking a snapshot of your projects. For example, if I
-    make changes to a code so that it prints “Hello world”, and then
-    commit them with an informative message, I can look at the history
-    of my commits and view the code that I wrote at that time. If I made
-    some more changes to the function that resulted in an error, I could
-    go back to the commit where the code was originally working. This
-    prevents you from creating several versions of your homework
-    (homework-v1, homework-v2, …) or from trying to remember what your
-    code originally looked like.
+    homework assignment, commit them.
+
+**What are commits?** Commits are essentially taking a snapshot of your
+projects. For example, if I make changes to a code so that it prints
+“Hello world”, and then commit them with an informative message, I can
+look at the history of my commits and view the code that I wrote at that
+time. If I made some more changes to the function that resulted in an
+error, I could go back to the commit where the code was originally
+working. This prevents you from creating several versions of your
+homework (homework-v1, homework-v2, …) or from trying to remember what
+your code originally looked like.
 
 You can make commits using the GIT toolbar in RStudio (in RStudio make
 sure the toolbar is visible by doing View -\> Show Toolbar). Click the
